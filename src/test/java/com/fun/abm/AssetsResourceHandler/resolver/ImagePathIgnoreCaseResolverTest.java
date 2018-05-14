@@ -1,4 +1,4 @@
-package com.fun.abm.FileResourceHandler.resolver;
+package com.fun.abm.AssetsResourceHandler.resolver;
 
 import org.junit.Before;
 import org.junit.Test;

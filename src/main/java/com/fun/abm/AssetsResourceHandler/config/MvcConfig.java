@@ -1,6 +1,6 @@
-package com.fun.abm.FileResourceHandler.config;
+package com.fun.abm.AssetsResourceHandler.config;
 
-import com.fun.abm.FileResourceHandler.resolver.ImagePathIgnoreCaseResolver;
+import com.fun.abm.AssetsResourceHandler.resolver.ImagePathIgnoreCaseResolver;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;

@@ -1,13 +1,13 @@
-package com.fun.abm.FileResourceHandler;
+package com.fun.abm.AssetsResourceHandler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FileResourceHandlerApplication {
+public class AssetsResourceHandlerApplication {
 
     public static void main(String[] args) {
 
-        SpringApplication.run(FileResourceHandlerApplication.class, args);
+        SpringApplication.run(AssetsResourceHandlerApplication.class, args);
     }
 }

@@ -1,4 +1,4 @@
-package com.fun.abm.FileResourceHandler.resolver;
+package com.fun.abm.AssetsResourceHandler.resolver;
 
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.core.io.Resource;
@@ -15,9 +15,9 @@ import java.util.List;
 public class ImagePathIgnoreCaseResolver extends AbstractResourceResolver {
 
     @Override
-    protected Resource resolveResourceInternal(HttpServletRequest request,
-                                               String requestPath, List<? extends Resource> locations,
-                                               ResourceResolverChain chain) {
+    public Resource resolveResourceInternal(HttpServletRequest request,
+                                            String requestPath, List<? extends Resource> locations,
+                                            ResourceResolverChain chain) {
         return getImgResource(requestPath, locations);
     }
 
